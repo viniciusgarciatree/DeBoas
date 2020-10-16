@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DeBoas</string>
+    <string name="boas_vindas">Seja bem-vindo ao \"De Boas\", onde você apreende meditação para ficar sempre de boas</string>
+    <string name="btn_boas_vindas">Próximo</string>
 </resources>
