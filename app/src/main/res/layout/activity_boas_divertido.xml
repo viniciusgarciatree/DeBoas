@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BoasVindas">
+    tools:context=".BoasDivertido">
 
     <LinearLayout
+        android:id="@+id/de_boas_alegre"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -15,31 +16,24 @@
             style="@style/texto_boas_vindas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/boas_vindas">
-        </TextView>
+            android:text="@string/boas_divertido" />
 
         <ImageView
-            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/bo_triste" />
+            app:srcCompat="@drawable/bo_alegre" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center">
+
             <Button
-                style="@style/botao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/btn_text_proximo"
-                android:layout_centerInParent="true">
-
-            </Button>
+                android:layout_centerInParent="true"
+                android:text="@string/btn_text_proximo" />
         </RelativeLayout>
-
-
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

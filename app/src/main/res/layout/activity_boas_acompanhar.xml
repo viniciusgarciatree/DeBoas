@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BoasVindas">
+    tools:context=".BoasAcompanhar">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,28 +15,24 @@
             style="@style/texto_boas_vindas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/boas_vindas">
-        </TextView>
-
+            android:text="@string/boas_acompanhar"/>
         <ImageView
-            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/bo_triste" />
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/boas_acompanhar"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center">
+            android:layout_height="match_parent">
             <Button
-                style="@style/botao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/btn_text_proximo"
-                android:layout_centerInParent="true">
-
-            </Button>
+                android:layout_centerInParent="true"
+                />
         </RelativeLayout>
+
 
 
 

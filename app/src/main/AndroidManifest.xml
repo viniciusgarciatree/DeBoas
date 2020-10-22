@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BoasVindas"></activity>
+        <activity android:name=".Estatisticas"></activity>
+        <activity android:name=".Player" />
+        <activity android:name=".BoasObjetos" />
+        <activity android:name=".BoasAcompanhar" />
+        <activity android:name=".BoasDivertido" />
+        <activity android:name=".BoasVindas" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

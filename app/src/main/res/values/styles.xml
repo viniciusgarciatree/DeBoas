@@ -16,12 +16,38 @@
         <item name="android:textSize">12pt</item>
     </style>
 
+    <style name="texto">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12pt</item>
+    </style>
+
     <style name="imgens">
         <item name="android:gravity">center</item>
     </style>
 
     <style name="botao">
         <item name="android:gravity">center</item>
+    </style>
+
+    <style name="texto_objeto">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12pt</item>
+        <item name="android:paddingTop">50dp</item>
+    </style>
+
+    <style name="texto_objeto_sub">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">8pt</item>
+    </style>
+
+    <style name="lista_objetos">
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="edit_nome_objeto">
+        <item name="android:textSize">12pt</item>
+        <item name="android:textAlignment">center</item>
+        <item name="textAllCaps">true</item>
     </style>
 
 </resources>

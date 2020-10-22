@@ -1,5 +1,26 @@
 <resources>
     <string name="app_name">DeBoas</string>
-    <string name="boas_vindas">Seja bem-vindo ao \"De Boas\", onde você apreende meditação para ficar sempre de boas</string>
-    <string name="btn_boas_vindas">Próximo</string>
+    <string name="boas_vindas">Seja bem-vindo ao \"De Boas\", onde você apreende meditação para ficar sempre de boas.</string>
+    <string name="boas_divertido">É divertido e ajudamos você a ficar motivado com recompensas pelo seu empenho em ficar de \"De Boas\".</string>
+    <string name="boas_acompanhar">Você pode acompanhar sua evolução em ficar \"De Boas\" com as noassas estatísticas inteligentes.</string>
+    <string name="btn_text_proximo">Próximo</string>
+    <string name="objeto">Objeto</string>
+    <string name="sussa">Fica Sussa</string>
+    <string name="relaxar">Relaxar</string>
+    <string name="foca">Olha a Foca!</string>
+    <string name="aumentar">Aumentar o foco!</string>
+    <string name="dormir">Dormir de boas</string>
+    <string name="melhor">Dormir melhor</string>
+    <string name="tamanho_texto">120pd</string>
+    <string name="tempo_inicial">0:00</string>
+    <string name="tempo_parcial">0:30</string>
+    <string name="tempo_total">-0:30</string>
+    <string name="objeto_nome">Objeto nome</string>
+    <string name="objeto_ficar">Ficar sussa</string>
+    <string name="objeto_relaxa">Relaxar, reduzir ansiedade e o stress</string>
+    <stirng name="objeto_foca">Olha a foca!</stirng>
+    <string name="objeto_aumentar">Aumentar o foco</string>
+    <string name="objeto_dormir">Dormir de boas</string>
+    <string name="objeto_melhor">Dormir melhor</string>
+
 </resources>
